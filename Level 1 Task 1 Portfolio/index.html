@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- <link href="responsive.css" rel="stylesheet"> -->
+    <style>
+        nav{
+            height: 75px;
+            background-color: rgb(79, 78, 78);
+            align-items: center;
+            justify-content: space-around;
+            display: flex;
+        }
+
+        nav ul{
+            justify-content: center;
+            display: flex;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 7px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-family: ubuntu;
+            font-size: 17px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="left"><a href="#">My  Portfolio</a>
+                <p>Another Blog Site</p>
+            
+            </div>
+
+            <div class="right" >
+                <ul>
+                    <li class="list"><a href="#home">HOME</a></li>
+                    <li class="list"><a href="#ab">ABOUT ME</a></li>
+                    <li class="list"><a href="">SERVICES</a></li>
+                    <li class="list"><a href="#skl">SKILLS</a></li>
+                    <li class="list"><a href="#">BLOG</a></li>
+                    <li class="list"><a href="#contact">CONTACT ME</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    
+<main>
+    <section class="firstsec" id="home">
+        <div class="leftsec">
+           <p class="name"> Raushan &nbsp;Prajapati</p><hr width ="330px" size="2px" color="black" class="line">
+           
+        </div>
+        
+        <div class="rightsec">
+            <img src="image/image.jpg" id="img">
+        </div>
+    </section>
+    <section>
+            <p class="text">Hi, I am a professional video editor and a freelancer. I have been working in these fields for years.<br> I have even edited some clips for bollywood movies.</p>
+    </section> 
+
+    <section class="secsec">
+        <div id="ab">
+            <p id="about"><b class="a">A</b> <b id="me">bout  &nbsp;&nbsp;&nbsp;<b class="a">M</b>e.</b></p>
+            <hr  width ="50px" size="4px" color="aqua" id="line2">
+            <p class="txt">With over 5 years of experience in video editing, I began my journey using basic editing tools like Shotcut and Windows Movie Maker. As my passion and skills grew, I progressed to professional-grade software such as Adobe Premiere Pro and After Effects. This journey has been both exciting and technically enriching, allowing me to explore creative storytelling, motion graphics, and post-production techniques. Along the way, I’ve continuously adapted to new tools and challenges, honing my eye for detail and a strong sense of visual composition.</p>
+        </div>
+
+        <div class="skill" id="skl">
+            <p id="skill_head"><b>Skills...</b></p>
+            <ul>
+                <!-- <li class="img2"><img src="image/skill.jpg"></li> -->
+                <li class="skills">Video Editing</li>
+                <p class="skill_txt">As above I had already mentioned about my editing skills so I just want to say that it took me a lot of time and hard work to achieve this type of editing skills. There are many different terms in editing like trim , animation , green screen effect , intro , outro etc. Click on the play button to check some editing samples.</p>
+                <li class="abc"></li><a href="https://www.youtube.com/playlist?list=PLn6lOwJsrvciwqQ0-dTZvGq09NCjMdNyb" target="_blank"><b id="clk"><img src="image/play.png" width="100px" height="100px"></b></a></li>
+                <li class="skills">Freelancing</li>
+                <p class="skill_txt">I began my video editing journey on Freelancer, a platform that connects clients and freelancers from around the world. It gave me the opportunity to work on small projects for others, helping me build both my skills and confidence. Over time, this experience laid the foundation for my growth in the field of video editing</p>
+                <li class="skills">SEO</li>
+                <p class="skill_txt">SEO stands for Search Engine Optimisation , which means how searcg engine like google serves you information stored on the servers. If you have idea of this then you can get your videos ranked on trending or get recommended in other's feed due to which your reach and engagement finally gets increased.</p>
+                <li class="skills">Web development</li>
+                <p class="skill_txt">As the term Web Development defines itself developing web or websites which is used to serve information to the public. It is a combination of images, audio, video, hyperlink and many different resources arranged it in such a way that produces a result like the one you are visiting mine. Very basic are HTML ,CSS , Javascript and then there are many other frameworks like React, Angular, Mongo DB, Bootstrap.</p>
+            </ul>
+
+        </div>
+        <p class="dwn_txt">--------> &nbsp;&nbsp;&nbsp;Click the icon to download my Resume in pdf format.</p>
+        <a href="media/final.pdf" download="Resume.pdf" target="_blank" id="dwn_btn"><img src="image/cv_btn.png" height="60px" width="60px" class="img3"></a>
+        <!-- <p class="dwn_txt">Click to download my resume.</p> -->
+    </section>
+
+    <section id="contact">
+        <img src="image/contact.png" height="90px" width="90px" id="img4">
+        <p  class="cnt_txt">Contact Me</p>
+        <img src="image/mob.jpeg" height="60px" width="60px" class="mob">
+        <p class="cnt_info">9315581150</p>
+        <img src="image/mail.jpeg" height="60px" width="60px" class="ema">
+        <p class="cnt_info">rajjr62096@gmail.com</p>
+    </section>
+</main>
+
+<section class="footer">
+     <p class="foota" id="nam">&copy; 2025 Raushan Prajapati. All rights reserved.</p>
+     <p class="foota_c">Follow and connect with me:</p>
+    <p class="foota">
+        <a href="https://github.com/raushanprajapati1101" target="_blank"><img src="image/git.png" class="foot_logo" height="40px" width="40px"></a> 
+        <a href="https://www.linkedin.com/in/raushan-prajapati" target="_blank"><img src="image/lin.png" class="foot_logo" height="40px" width="40px"></a>  
+        <a href="https://www.instagram.com/raushanprajapati_1101/" target="_blank"><img src="image/insta.jpeg" height="40px" width="40 px" class="foot_logo"></a>
+    </p>
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    position:fixed;
+}
+
+.right{
+      margin-right:30px; 
+      width: 640px;
+}
+
+.left{
+    color: white;
+    margin-right: 722px;
+    margin-left: 68px;
+    /* width: 500px; */
+}
+
+.list a{
+        padding: 7px;
+
+}
+
+.list a:hover{
+    /* font-style:oblique; */
+    background-color: rgb(49, 52, 52);
+    border: solid ;
+    border-radius: 5px;
+    
+}
+
+.left a{
+    font-family: ubuntu;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.leftsec{
+    /* background-color: rgb(206, 201, 201); */
+    height: 500px;
+}
+
+.leftsec p{
+    margin-top: 127px;
+    font-family: ubuntu;
+    margin-left: 73px;
+}
+
+
+.rightsec{
+    /* background-color: green; */
+    /* height: 500px; */
+
+}
+
+.firstsec{
+    background-color: rgb(182, 176, 176);
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    font-size: 40px;
+}
+
+.text{
+    font-size: 20px;
+    font-family: ubuntu;
+    margin-top: -340px;
+    margin-left: 176px;
+}
+
+#img{
+    /* padding: 10px; */
+    margin-top: 85px;
+    margin-left: 350px ;
+    border: 5px solid white;
+    border-radius: 70%;
+    border-style:round;
+    /* height: 461px;
+    width: 486px; */
+}
+
+.line{
+    margin-left: 76px;
+}
+
+.a{
+    font-size: 50px;
+    font-family: roboto;
+    color: white;
+}
+
+#me{
+    font-size: 20px;
+    font-family: roboto;
+    color: white;
+}
+
+.secsec{
+    /* background-color: rgb(65, 70, 70); */
+    background-image: url(image/ski.jpg);
+    color: white;
+    margin-top: 300px;
+}
+
+#about{
+    margin-left: 175px;
+}
+
+#line2{
+      margin-left: 175px;
+}
+
+.txt{
+    font-size: 20px;
+    font-family: ubuntu;
+    margin-left: 175px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.skill{
+    margin-top: 100px;
+}
+
+.skills{
+    margin-top: 20px;
+    margin-left: 185px;
+    font-size: 25px;
+    font-family: ubuntu;
+}
+
+#skill_head{
+    margin-left: 175px;
+    font-size: 42px;
+    font-family: roboto;
+}
+
+.skill_txt{
+    margin-left: 240px;
+    margin-right: 130px;
+    font-size: 20px;
+    font-family: ubuntu;
+}
+
+.skill_txt a{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.abc{
+    margin-top: -105px;
+    /* margin-left: 10px; */
+}
+
+#clk{
+    margin-bottom: 10px;
+    margin-left: 155px;
+    /* padding: 3px; */
+    /* color: white; */
+    /* font-size: 23px; */
+    /* background-color: blue; */
+    /* border: 3px solid ; */
+    /* border-radius: 5%; */
+}
+
+.dwn_txt{
+    margin-left: 164px;
+    font-size: 25px;
+    font-family: roboto;
+    margin-top: 40px;
+}
+
+.img3{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#dwn_btn{
+    margin-left: 50%;
+}
+
+.cnt_txt{
+    font-size: 30px;
+    font-family: roboto;
+    margin-left: 205px;
+    margin-top: -65px;
+}
+
+#img4{
+    margin-left: 102px;
+    margin-top: 38px;
+}
+
+.cnt_info{
+    margin-left: 300px;
+    font-size: 27px;
+    font-family: ubuntu;
+    margin-top: -45px;
+}
+
+.mob{
+    margin-left: 210px;
+    margin-top: 40px;
+
+}
+
+.ema{
+    margin-left: 210px;
+    margin-top: 40px;
+
+}
+
+.footer{
+    color: white;
+    background-color: black;
+}
+
+.foota{
+    font-size: 25px;
+    font-family: ubuntu;
+    margin-left: 660px;
+    margin-top: 10px;
+    
+}
+
+#nam{
+    margin-left: 500px;
+}
+
+.foota a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot_logo{
+    border: 2px solid black;
+    margin-top: -5px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.dandi{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.foota_c{
+    font-size: 25px;
+    font-family: ubuntu;
+    margin-left: 570px;
+    margin-top: 10px;
+    
+}
