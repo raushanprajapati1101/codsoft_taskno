@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    position:fixed;
+
+}
+
+.navdecor a{
+    font-family: ubuntu;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.list a{
+    font-family: ubuntu;
+    padding: 7px;
+}
+
+.list a:hover{
+    background-color: rgb(49, 52, 52);
+    border: solid ;
+    border-radius: 5px;
+    
+}
+
+.land{
+    font-size: 42px;
+    font-family: ubuntu;
+    margin-left: 10%;
+    margin-top: 3%;
+    color: white;
+}
+
+.txt{
+    font-size: 22px;
+    color: white;
+    font-family: roboto;
+    margin-left: 10%;
+    padding: 5px;
+    margin-top: 1%;
+    margin-right: 43%;
+}
+
+.line{
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+.line2{
+    margin-top: 53x;
+    height: 5px;
+
+}
+
+.footer{
+    color: white;
+    margin-top: -6px;
+
+}
+
+.foota{
+    font-size: 25px;
+    font-family: ubuntu;
+    margin-left: 660px;
+    margin-top: 13px;
+    
+}
+
+#nam{
+    margin-left: 500px;
+}
+
+.foota a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot_logo{
+    border: 2px solid ;
+    margin-top: -5px;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.dandi{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.foota_c{
+    font-size: 25px;
+    font-family: ubuntu;
+    margin-left: 570px;
+    margin-top: 10px;
+    
+}
+
+.img{
+    border-radius: 50%;
+    margin-left: 1010px;
+    margin-top: -445px;
+    height: 500px;
+    width: 500px;
+}
